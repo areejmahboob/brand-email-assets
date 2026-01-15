@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+
+<html style="height: 100% !important; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<style>@font-face {
+font-family: 'Roboto'; font-style: normal; font-weight: 100; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmbiA8.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Roboto'; font-style: normal; font-weight: 300; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmbiA8.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Roboto'; font-style: normal; font-weight: 400; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmbiA8.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Roboto'; font-style: normal; font-weight: 500; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmbiA8.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Roboto'; font-style: normal; font-weight: 700; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmbiA8.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Roboto'; font-style: normal; font-weight: 900; font-stretch: normal; font-display: swap; src: url('https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmbiA8.ttf') format('truetype');
+}
+body {
+margin: 0 auto !important; padding: 0 !important; height: 100% !important; width: 100% !important;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .email-container {
+    min-width: 375px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 100% !important;
+  }
+  .mob-hero-img {
+    height: 150px !important; background-size: cover !important;
+  }
+  .mob-hero-1 {
+    height: 85px !important;
+  }
+  .mob-hero-text {
+    height: 180px !important;
+  }
+  .mob-th-width {
+    width: 300px !important; height: 233px !important;
+  }
+  .m-pad-85 {
+    padding: 20px 38px !important;
+  }
+  .mob-padd-80 {
+    padding: 0 80px !important;
+  }
+  .mob-font-25 {
+    font-size: 22px !important; line-height: 25px !important; padding: 0 120px !important;
+  }
+  .mob-font-18 {
+    font-size: 18px !important; line-height: 20px !important;
+  }
+  .mob-padd-bottom {
+    padding-bottom: 20px !important;
+  }
+  .mob-padding-invoice {
+    padding: 10px 5px !important;
+  }
+  .mob-margin-bottom {
+    margin-bottom: 40px !important;
+  }
+  .mob-display-none {
+    display: none !important;
+  }
+  .mob-font-30 {
+    font-size: 45px !important;
+  }
+  .mob-voucher-img {
+    background-size: 600px !important;
+  }
+  .mob-hide-img {
+    background: none !important; background-color: #ffffff !important;
+  }
+  .mob-voucher-padding {
+    padding: 0 10px;
+  }
+  .colAppL {
+    width: 100% !important; display: block !important; text-align: center !important;
+  }
+  .colAppR {
+    width: 100% !important; display: block !important; text-align: center !important;
+  }
+  .colAppL-t {
+    width: 300px !important; display: block !important; text-align: center !important; margin: 0 auto !important;
+  }
+  .colAppL-left {
+    display: inline-block !important; text-align: left !important;
+  }
+  .colAppL-s {
+    display: inline-block !important; text-align: left !important;
+  }
+  .mob-font {
+    font-size: 18px !important;
+  }
+  .mob-font-12 {
+    font-size: 12px !important; line-height: 18px !important; height: auto !important;
+  }
+  .mob-hide {
+    background: none !important; background-color: #D61F26 !important;
+  }
+  .mob-padd-0 {
+    padding-left: 0 !important;
+  }
+  .mob-padd-l-20 {
+    padding: 0 20px 0 !important;
+  }
+  .mob-pad-0 {
+    padding: 0 0 33px !important;
+  }
+  .mob-bg-color {
+    background-color: #ffffff !important;
+  }
+  .mob-gutter {
+    height: 20px !important;
+  }
+  .text-align-c {
+    text-align: center !important;
+  }
+  .mob-width-white {
+    width: 360px !important; background: #ffffff !important;
+  }
+  .mob-footer-width {
+    width: 370px !important;
+  }
+  .mob-hide {
+    display: none !important;
+  }
+  .mob-header {
+    background-size: cover !important;
+  }
+  .mob-height-a {
+    height: 150px !important;
+  }
+  .mob-height-b {
+    height: 180px !important;
+  }
+  .mob-heigh-td {
+    height: 465px !important;
+  }
+  .mob-address-a {
+    display: inline-block !important; text-align: left !important; width: 80% !important;
+  }
+  .mob-address-b {
+    display: inline-block !important; text-align: left !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .mob-width-white {
+    width: 310px !important; background: #ffffff !important;
+  }
+  .mob-footer-width {
+    width: 310px !important;
+  }
+}
+@media (prefers-color-scheme: light) {
+  [data-ogsc].mob-width-white {
+    height: 800px !important; background: #ffffff !important;
+  }
+}
+</style>
+</head>
+<body style="height: 100% !important; width: 100% !important; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0 auto; padding: 0;">
+<div style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+</div>
+<p style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<!-- /////////// LOGO SETINGS ///////////// -->
+<!-- /////////// Order New EMAIL CONTENT ///////////// -->
+</p>
+<meta charset="utf-8" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<meta content="width=device-width" name="viewport" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<meta name="x-apple-disable-message-reformatting" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<title style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">yemeksepeti</title>
+<!-- Web Font / @font-face : BEGIN -->
+<!--[if mso]>
+  <style>
+  * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<![endif]-->
+<!--[if !mso]><!-->
+<!--<![endif]-->
+<!-- Web Font / @font-face : END -->
+<!-- CSS -->
+<!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+<!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<center style="width: 100%; background-color: #F0F0F0; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<!--[if mso]>
+    <style type="text/css">
+    body, table, td {font-family: Arial, Helvetica, sans-serif;}
+  </style>
+  <![endif]-->
+<!-- Visually Hidden Preheader Text : BEGIN -->
+<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: 'Roboto', sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+</div>
+<!-- Visually Hidden Preheader Text : END -->
+<div class="wrapper" style="max-width: 600px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: auto;">
+<!--[if mso]>
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+  <tr>
+  <td>
+  <![endif]-->
+<!-- EMAIL BODY : BEGIN -->
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="wrapper email-container" role="presentation" style="max-width: 600px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="600">
+<!-- ////////// LOGO YEMEKSEPETI : BEGIN /////////// -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 22px 0;">
+<!-- YEMEKSEPETI LOGO : BEGIN -->
+<a href="https://utsh.adj.st/?c=tr&amp;s=s&amp;vt=ds&amp;adjust_t=cnx3nv_ry6rca&amp;adjust_campaign=crm_bra_mix_eat_ma_{{campaign.${name}}}_{{campaign.${api_id}}}&amp;adjust_deeplink=yemeksepeti%3A%2F%2F%3Fc%3Dtr%26s%3Ds%26vt%3Dds&amp;adjust_redirect=https%3A%2F%2Fwww.yemeksepeti.com%2Ftr%2Fdarkstore%3Futm_source=email&amp;utm_medium=crm&amp;utm_campaign=crm_bra_{{campaign.${name}}}_{{campaign.${api_id}}}_ma&amp;utm_keyword=" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img border="0" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_9c69f911.png" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 20px; color: #D61F26; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic;" width="300"/>
+</a>
+<!-- YEMEKSEPETI LOGO : END -->
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<!-- ////////// LOGO YEMEKSEPETI : END /////////// -->
+<!-- ////////// HERO IMAGE YEMEKSEPETI : BEGIN /////////// -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 22px 0;">
+<!-- IMAGE : BEGIN -->
+<a href="https://utsh.adj.st/?s=hs&amp;adjust_t=cnx3nv_ry6rca&amp;adjust_campaign=crm_bra_mix_eat_ma_{{campaign.${name}}}_{{campaign.${api_id}}}&amp;adjust_deeplink=yemeksepeti%3A%2F%2F%3Fs%3Dhs&amp;adjust_redirect=https%3A%2F%2Fwww.yemeksepeti.com%3Futm_source=email&amp;utm_medium=crm&amp;utm_campaign=crm_bra_{{campaign.${name}}}_{{campaign.${api_id}}}_ma&amp;utm_keyword=" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img border="0" class="wrapper" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_231e277a.jpg" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 20px; color: #D61F26; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic;" width="600"/>
+</a>
+<!-- IMAGE : END -->
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<!-- ////////// HERO IMAGE YEMEKSEPETI : END /////////// -->
+<!-- //// **** invoice structure begin **** //// -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="mob-width-white" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="585">
+<!-- //// **** invoice structure begin **** //// -->
+<!-- //// **** invoice structure begin **** //// -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td height="400" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="top">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="mob-width-white" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="540">
+<!-- **** Invoice info & customer address begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-height-a" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 30px 0 0;" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper mob-height-a" style="border-bottom-width: 1px; border-bottom-color: #000; border-bottom-style: dashed; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<!-- ****  INVOICE INFO BEGIN  **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-p-10-text" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #02171A; font-weight: bold; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0 0 12px;">
+<b style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+
+Order details:
+
+</b>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0 0 30px;">
+<table border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-s" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Seller: 
+  </td>
+<td align="right" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;"> Yemeksepeti Market; Aydınlı (İstanbul) </td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Order time:
+ </td>
+<td align="right" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="60%"> 03.12.2025 22:29:58</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-s" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Order number: 
+ </td>
+<td align="right" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="50%"> hc1d-rvmj</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-s" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+Payment type:
+ </td>
+<td align="right" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="60%"> Online Kredi/Banka Kartı</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  INVOICE INFO END  **** -->
+</table>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 30px 0 0;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-border wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<!-- ****  CUSTOMER ADDRESS BEGIN  **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0 0 30px;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="colAppL" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="mob-line-h-16" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #02171A; font-weight: bold; padding-bottom: 12px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<b style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+  
+    
+    Pick-up address:
+    
+  
+</b>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-s" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Name: 
+ 
+</td>
+<td align="right" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">Yemeksepeti Market; Aydınlı (İstanbul)</span><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="mob-address-b">
+
+Delivery details:
+ 
+</td>
+<td align="right" class="mob-address-a" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<a href="#" style="text-decoration: none; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">Aydınlı Mahallesi Aktar Sokak No:9/A Dükkan 46/47/48 Tuzla/istanbul 40.8734, 29.3312</span><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"></span><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">X</span><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+</a>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td align="left" class="colAppL-s" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Phone:
+ 
+</td>
+<td align="right" class="colAppL-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 28px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<a href="tel:+90%20" style="text-decoration: none; color: #02171A; font-weight: 300; font-family: Arial, Helvetica, sans-serif; font-size: 16px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank"></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  CUSTOMER ADDRESS END  **** -->
+</table>
+</td>
+</tr>
+<!-- **** Invoice info & customer address ends **** -->
+<!-- ****  dotted separator begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" height="30" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="top">
+<table align="center" bgcolor="ffffff" class="wrapper" height="0" style="border-top-width: 6px; border-top-color: #5EFFB6; border-top-style: solid; color: #5EFFB6; border: collapse; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="120">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator end **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="540">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-p-10-text" colspan="2" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<b style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+Hi 
+ Areej Mahboob,</b>
+<br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+
+
+Thanks for your order from Yemeksepeti Market; Aydınlı (İstanbul) partner! We'll let you know when your order will be ready to pick up nearer the time. 
+<br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/><br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+</span>
+</td>
+</tr>
+<!-- content : begin -->
+<!-- ****  dotted separator begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" height="20" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="middle">
+<table align="center" bgcolor="ffffff" class="wrapper" height="0" style="color: #BEBEBE; border: collapse; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator end **** -->
+<!-- content : end -->
+<!-- content : begin -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-p-10-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 25px; font-weight: 300; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+
+Best regards,
+<br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<b style="color: #FA0050; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">Yemeksepeti</b>
+</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" height="40" style="max-width: 540px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="middle">
+<table align="center" bgcolor="ffffff" class="mob-hide" height="0" style="border-top-width: 2px; border-top-color: #BEBEBE; border-top-style: dotted; color: #BEBEBE; border: collapse; max-width: 600px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator end **** -->
+<!-- **** //// Invoice content begins //// **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" valign="top" width="540">
+<!-- **** //// Invoice content begins //// **** -->
+<!-- **** order header begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-padding-10" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<table align="center" bgcolor="#5EFFB6" border="0" cellpadding="0" cellspacing="0" class="wrapper" height="55" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-padding-10 mob-f-16 mob-width-item" height="55" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 20px; font-weight: 600; color: #02171A; padding-left: 10px; max-width: 500px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="100%">
+
+  QTY | Items
+
+
+
+</td>
+<td align="center" class="mob-padding-10 mob-f-16 mob-width-price" height="55" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 20px; font-weight: 600; color: #02171A; max-width: 80px; padding-right: 10px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="100%">
+
+Sum
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- **** order header ends **** -->
+<!-- **** order content begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-padding-5" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: 300; color: #000; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="max-width: 540px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 10px 0;">
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>1 X</strong></td>
+<td><strong>Kellogg's Çikolatalı Fındıklı Granola 340 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>102,95 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>2 X</strong></td>
+<td><strong>Nestlé Crunch Tam Tahıllı Kahvaltılık Gevrek 375 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>197,48 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>1 X</strong></td>
+<td><strong>M&amp;M's Fıstıklı Çikolata 90 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>96,90 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>1 X</strong></td>
+<td><strong>Ülker Olala Sufle Kek 70 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>29,20 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>1 X</strong></td>
+<td><strong>La Lorraine Tereyağlı Kruvasan 55 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>27,93 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>1 X</strong></td>
+<td><strong>Master Potato Tuz &amp; Sirke Soslu Cips 160 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>119,90 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>2 X</strong></td>
+<td><strong>Haribo Ekşii Miami 70 g</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>65,44 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="font-size: 14px; padding: 14px; padding-right: 5px;">
+<table bgcolor="" border="0" cellpadding="0" cellspacing="0" style="line-height: 15px; text-transform: uppercase;" width="100%">
+<tr>
+<td width="30"><strong>1 X</strong></td>
+<td><strong>Red Bull Enerji İçeceği Karpuz 250 ml</strong></td>
+<td align="right" style="text-transform: none;" width="100"><strong>65,50 TL</strong></td>
+</tr>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- **** order content begins **** -->
+<!-- ****  dotted separator begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-padding-10" colspan="2" height="40" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="middle">
+<table align="center" bgcolor="ffffff" class="wrapper" height="0" style="border-top-width: 1px; border-top-color: #BEBEBE; border-top-style: solid; color: #BEBEBE; border: collapse; max-width: 540px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator end **** -->
+<!-- //// **** INVOICE CALCULATION : BEGIN **** //// -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="line-height: 35px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0 0 10px;">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="max-width: 540px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<!-- //// **** INVOICE CALCULATION : BEGIN **** //// -->
+<!-- ** PICKUP Begin ** -->
+<!-- ** Plastic Bag Fee begin ** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-hide" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="270">
+<table border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="270">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+<td class="mob-padding-10" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="270">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="270">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; font-size: 14px; line-height: 40px; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Plastic bag
+ (1)
+</td>
+<td align="right" style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; font-size: 14px; line-height: 40px; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+0,50 TL
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ** Plastic Bag Fee end ** -->
+<!-- ** Service fee begin ** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-hide" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="270">
+<table border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="270">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+<td class="mob-padding-10" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="270">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="270">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; font-size: 14px; line-height: 40px; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Platfom Fee
+
+</td>
+<td align="right" style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; font-size: 14px; line-height: 40px; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+5,99 TL
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ** Service fee end ** -->
+<!-- ** PICKUP end ** -->
+<!-- ** Total begin ** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td class="mob-hide" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="270">
+<table border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="270">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+<td class="mob-padding-10" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="270">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="270">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 14px; line-height: 40px; color: #02171A; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+
+Total
+
+</td>
+<td align="right" style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 14px; color: #FA0050; line-height: 40px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+761,78 TL
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ** Total end ** -->
+<!-- //// INVOICE CALCULATION : ends //// -->
+</table>
+</td>
+</tr>
+<!-- //// INVOICE CALCULATION : ends //// -->
+<!-- //// **** Invoice content ends //// **** -->
+</table>
+</td>
+</tr>
+<!-- //// **** Invoice content ends //// **** -->
+<!-- //// **** invoice structure ends **** //// -->
+</table>
+</td>
+</tr>
+<!-- //// **** invoice structure ends **** //// -->
+<!-- //// **** invoice structure ends **** //// -->
+</table>
+</td>
+</tr>
+<!-- //// **** invoice structure end **** //// -->
+<!-- ////////// FOOTER & SOCIAL : BEGIN ////////// -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" dir="ltr" role="presentation" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="100%">
+<!-- ****  dotted separator begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" height="40" style="max-width: 540px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="middle">
+<table align="center" bgcolor="ffffff" class="wrapper" height="0" style="border-top-width: 2px; border-top-color: #BEBEBE; border-top-style: dotted; color: #BEBEBE; border: collapse; max-width: 600px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator end **** -->
+<!-- DSA : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" class="pad-texf" style="font-family: Arial, sans-serif !important; font-size: 10px; line-height: 18px; color: #02171a; font-weight: 500; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 90px;" width="422">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<a clicktracking="off" href="https://s3.eu-central-1.amazonaws.com/prod-tr-order-agreement.foodora.com/preliminary_information_form_2f70a8bb-cb98-4867-8058-5366c5ef7cb3.html" style="color: #D61F26; text-decoration: underline; font-weight: 600; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">Ön Bilgilendirme Formu</a> ve <a clicktracking="off" href="https://s3.eu-central-1.amazonaws.com/prod-tr-order-agreement.foodora.com/distance_sales_agreement_7db6882f-82a1-49da-8597-62ef1f8c2a51.html" style="color: #D61F26; text-decoration: underline; font-weight: 600; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">Mesafeli Satış Sözleşmesini  </a> görüntülemek için tıklayınız..
+          </span>
+</th>
+</tr>
+<!-- DSA : END -->
+<!-- ****  dotted separator begins **** -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td colspan="2" height="40" style="max-width: 540px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" valign="middle">
+<table align="center" bgcolor="ffffff" class="wrapper" height="0" style="border-top-width: 2px; border-top-color: #BEBEBE; border-top-style: dotted; color: #BEBEBE; border: collapse; max-width: 600px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;" width="540">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ****  dotted separator end **** -->
+<!-- SOCIAL ICONS : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 32px;" width="96">
+<table align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;">
+<!-- FACEBOOK : BEGIN --->
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 20px 0 0;">
+<a alias="social-icons" conversion="true" href="https://www.facebook.com/Yemeksepeti" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img alt="social-icons" border="0" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_3c34fcf9.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic; margin: 0; border-style: none;" width="32"/>
+</a>
+</th>
+<!-- FACEBOOK : END --->
+<!-- TWITTER : BEGIN --->
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 20px 0 0;">
+<a alias="social-icons" conversion="true" href="https://twitter.com/yemeksepeti" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img alt="social-icons" border="0" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_e3d07522.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic; margin: 0; padding: 0; border-style: none;" width="32"/></a>
+</th>
+<!-- TWITTER : END --->
+<!-- instagram : BEGIN --->
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0 20px 0 0;">
+<a alias="social-icons" conversion="true" href="https://www.instagram.com/yemeksepeti/" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img alt="social-icons" border="0" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_b8edcb8e.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic; margin: 0; padding: 0; border-style: none;" width="32"/>
+</a>
+</th>
+<!-- instagram : END --->
+<!-- youtube : BEGIN --->
+<th style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<a alias="social-icons" conversion="true" href="https://www.youtube.com/user/yemeksepeti" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img alt="social-icons" border="0" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_0ae1e6ef.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic; margin: 0; padding: 0; border-style: none;" width="32"/>
+</a>
+</th>
+<!-- youtube : END --->
+</table>
+</th>
+</tr>
+<!-- SOCIAL ICONS : END -->
+<!-- APP DOWNLOAD : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<td style="padding-bottom: 20px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; border-spacing: 0 !important; border-collapse: collapse !important; table-layout: auto !important; margin: 0 auto;">
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<!-- IOS -->
+<td align="center" class="mob-store" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="120">
+<a href="https://itunes.apple.com/tr/app/yemeksepeti/id373034841?mt=8" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img class="mob-store" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_cb8d13ba.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic;" width="100"/>
+</a>
+</td>
+<!-- Gplay -->
+<td align="center" class="mob-store" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="120">
+<a href="https://play.google.com/store/apps/details?id=com.inovel.app.yemeksepeti" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img class="mob-store" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_f25bec08.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic;" width="100"/>
+</a>
+</td>
+<!-- AppGallery -->
+<td align="center" class="mob-store" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important;" width="120">
+<a href="https://appgallery.huawei.com/#/app/C101836129" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img class="mob-store" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_d3b9b026.png" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic;" width="100"/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- UNSUBSCRIBE : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" class="pad-texf" style="font-family: Arial, sans-serif !important; font-size: 10px; line-height: 18px; color: #02171a; font-weight: 500; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0px 90px 30px;" width="422">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+              
+              This e-mail has been sent to your address upon your order transaction.<br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+</span>
+</th>
+</tr>
+<!-- UNSUBSCRIBE : END -->
+<!-- CONTACT : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" style="font-family: Arial, sans-serif !important; font-size: 10px; line-height: 18px; color: #02171a; font-weight: 300; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 0px 40px 30px;">
+<span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+              
+               Yemek Sepeti Elektronik İletişim Perakende Gıda Anonim Şirketi<br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+<a href="https://app.adjust.com/jsr?url=https%3A%2F%2Futsh.adj.st%2F%3Fc%3Dtr%26s%3Dl%26adjust_t%3Dcnx3nv_ry6rca%26adjust_campaign%3Dcrm_bra_mix_eat_ma_%7B%7Bcampaign.%24%7Bname%7D%7D%7D_%7B%7Bcampaign.%24%7Bapi_id%7D%7D%7D_ct-ff%26adjust_deeplink%3Dyemeksepeti%253A%252F%252F%253Fc%253Dtr%2526s%253Dl%26adjust_redirect%3Dhttps%253A%252F%252Fwww.yemeksepeti.com%252F%253Futm_source%3Demail%26utm_medium%3Dcrm%26utm_campaign%3Dcrm_bra_%7B%7Bcampaign.%24%7Bname%7D%7D%7D_%7B%7Bcampaign.%24%7Bapi_id%7D%7D%7D_ma%26utm_keyword%3D%26adjust_deeplink_js%3D1" style="color: #02171a; text-decoration: none; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_self">
+              Esentepe Mahallesi, Dede Korkut Sokak, No: 28/1, Şişli, İstanbul <br style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"/>
+              Mersis No: 0947045746800015
+              </a>
+</span>
+</th>
+</tr>
+<!-- CONTACT : END -->
+<tr style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<th align="center" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" valign="bottom">
+<!-- YEMEKSEPETI LOGO : BEGIN -->
+<a href="#" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" target="_blank">
+<img alt="logo" border="0" class="wrapper" src="https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/Food_ordering_platform/yemeksepeti/images/yemeksepeti_0d58198f.png" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 20px; color: #D61F26; vertical-align: bottom; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpolation-mode: bicubic;" width="600"/>
+</a>
+<!-- YEMEKSEPETI LOGO : END -->
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<!-- ////////// FOOTER & SOCIAL : END ////////// -->
+</table>
+<!-- Email Body : END -->
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</div>
+</center>
+</body>
+</html>
