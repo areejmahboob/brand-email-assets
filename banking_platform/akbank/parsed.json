@@ -1,0 +1,53 @@
+{
+  "links": [
+    {
+      "href": "https://haberci.akbank.com/elci.opsweb/ReadMgts.aspx?kid=I1Dj0YmwYYlrLj4yDJMK5exgznllBh66NUF7kvrWNHoULz+N1k+BLvwbIvpfyxSff1E0PR/N4uKEGb77jvV5r0MiYcIseD56xy0ASiAOUHzyMdXP61SN3c4+oqiOFQQntFct43gf7+fbyJweBPwfvhkPoRbkygS0WafBhF3OX6cfvA+1BYqEFkJi4u78uEHZoA6tRv6zc91ZK30PSRH76hh5GZWvMOiMtJVFWaVf+4kmhvGJwXWrhYhBum0DdrWnMLuShX9as6FpxjhYlYDxSQ7ftGlklJXDAuBcb46NrHGkDaVPEpeSMO6/2IGZ3Z6+evNdc9nKoMm9oMRIVdnyTSf3UPgBhR75/lnbGFnbmlVu3JzI0rHTMfbffGEDg+dub06uztu9AfbC6yxQLMew2jdR5Z4c6aDH2JwEnpEv7WxXSdkYtijYh2vtQcXNkYM5",
+      "text": null
+    },
+    {
+      "href": "https://haberci.akbank.com/elci.opsweb/ViewMgts.aspx?kid=I1Dj0YmwYYlrLj4yDJMK5exgznllBh66NUF7kvrWNHoULz+N1k+BLvwbIvpfyxSff1E0PR/N4uKEGb77jvV5r0MiYcIseD56xy0ASiAOUHzyMdXP61SN3c4+oqiOFQQntFct43gf7+fbyJweBPwfvhkPoRbkygS0WafBhF3OX6errUo/5emHOdznEzYQaA6TtI2WBcvC46T+PcxDGu2jl6IkIG8Z30FwMAEU+rTIVHPrA3HgsVLLU3xyvJsEgT/xZUPdhFeLTIn0yEbgBOyPVoFe+oDjDPj65xi79dQkMI+56bUx6csSBl4fjHYNO/i+1yDol563lzIJv7EbM8FY7hhoBf/6agwaY40sIUxFuRM=",
+      "text": "t\u0131klay\u0131n\u0131z"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.akbank.com/emails/kurumsal-bant/header/header-600.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.akbank.com/emails/kurumsal-bant/images/sizin-icin-600.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.akbank.com/emails/kurumsal-bant/footer/footer-600.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://haberci.akbank.com/elci.opsweb/LoadMgts.aspx?kid=I1Dj0YmwYYlrLj4yDJMK5exgznllBh66NUF7kvrWNHoULz+N1k+BLvwbIvpfyxSff1E0PR/N4uKEGb77jvV5r0MiYcIseD56xy0ASiAOUHzyMdXP61SN3c4+oqiOFQQntFct43gf7+fbyJweBPwfvhkPoRbkygS0WafBhF3OX6errUo/5emHOdznEzYQaA6TtI2WBcvC46T+PcxDGu2jl6IkIG8Z30FwMAEU+rTIVHPrA3HgsVLLU3xyvJsEgT/xZUPdhFeLTIn0yEbgBOyPVoFe+oDjDPj65xi79dQkMI+56bUx6csSBl4fjHYNO/i+1yDol563lzIJv7EbM8FY7hhoBf/6agwaY40sIUxFuRM=",
+      "alt": null
+    },
+    {
+      "src": "https://haberci.akbank.com/elci.opsweb/LoadMgts.aspx?kid=I1Dj0YmwYYlrLj4yDJMK5exgznllBh66NUF7kvrWNHoULz+N1k+BLvwbIvpfyxSff1E0PR/N4uKEGb77jvV5r0MiYcIseD56xy0ASiAOUHzyMdXP61SN3c4+oqiOFQQntFct43gf7+fbyJweBPwfvhkPoRbkygS0WafBhF3OX6errUo/5emHOdznEzYQaA6TtI2WBcvC46T+PcxDGu2jl6IkIG8Z30FwMAEU+rTIVHPrA3HgsVLLU3xyvJsEgT/xZUPdhFeLTIn0yEbgBOyPVoFe+oDjDPj65xi79dQkMI+56bUx6csSBl4fjHYNO/i+1yDol563lzIJv7EbM8FY7hhoBf/6agwaY40sIUxFuRM=",
+      "alt": null
+    }
+  ],
+  "headings": [],
+  "paragraphs": [],
+  "downloaded_images": [
+    {
+      "original": "https://www.akbank.com/emails/kurumsal-bant/header/header-600.jpg",
+      "local": "images/akbank_0d2e3292.jpg",
+      "public": "https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/banking_platform/akbank/images/akbank_0d2e3292.jpg"
+    },
+    {
+      "original": "https://www.akbank.com/emails/kurumsal-bant/images/sizin-icin-600.jpg",
+      "local": "images/akbank_865bb14b.jpg",
+      "public": "https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/banking_platform/akbank/images/akbank_865bb14b.jpg"
+    },
+    {
+      "original": "https://www.akbank.com/emails/kurumsal-bant/footer/footer-600.jpg",
+      "local": "images/akbank_36fe8b2d.jpg",
+      "public": "https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/banking_platform/akbank/images/akbank_36fe8b2d.jpg"
+    }
+  ]
+}
