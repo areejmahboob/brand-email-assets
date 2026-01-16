@@ -1,0 +1,80 @@
+{
+  "links": [
+    {
+      "href": "https://www.zara.com/tr/en/-p07522040.html?v1=222744340&v2=2113366&utm_term=0752204050001-V2023&ci=222744340&subscription_id=410974694&ssts=20221201104702&utm_source=notification&utm_medium=email&utm_content=image&utm_campaign=comingsoon",
+      "text": "HOODED PUFFER JACKET"
+    },
+    {
+      "href": "https://www.zara.com/tr/en/-p07522040.html?v1=222744340&v2=2113366&utm_term=0752204050001-V2023&ci=222744340&subscription_id=410974694&ssts=20221201104702&utm_source=notification&utm_medium=email&utm_content=image&utm_campaign=comingsoon",
+      "text": "View"
+    },
+    {
+      "href": "https://www.zara.com/tr/en/help",
+      "text": "Help"
+    },
+    {
+      "href": "https://static.zara.net/static//pdfs/TR/terms-and-conditions/terms-and-conditions-en_TR-20220607.pdf",
+      "text": "Purchase conditions"
+    },
+    {
+      "href": "https://static.zara.net/static//pdfs/TR/privacy-policy/privacy-policy-en_TR-20220422.pdf",
+      "text": "Privacy policy"
+    },
+    {
+      "href": "https://www.tiktok.com/@zara",
+      "text": "Tik Tok"
+    },
+    {
+      "href": "https://www.instagram.com/zara",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://es-es.facebook.com/Zara",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://twitter.com/zaraes?s=20",
+      "text": "Twitter"
+    },
+    {
+      "href": "https://www.pinterest.es/zaraofficial/",
+      "text": "Pinterest"
+    },
+    {
+      "href": "https://www.youtube.com/user/zara",
+      "text": "Youtube"
+    },
+    {
+      "href": "https://www.zara.com/static/go/marketplaces.html",
+      "text": "Download our app"
+    }
+  ],
+  "images": [
+    {
+      "src": "http://static.zara.net/photos/contents/apps/logo_Zara_2019.png",
+      "alt": null
+    },
+    {
+      "src": "https://static.zara.net/photos/2023/V/0/1/p/7522/040/500/2/7522040500_1_1_1.jpg?ts=1669304624912",
+      "alt": null
+    },
+    {
+      "src": "http://ir.zara.com/oo/CAAAA4pIgmYAAAAAAAAAAApnuaUAAAAAAAEAAAAAAAuI7wBjiIYopwbsECvNQoi1cJF34_LeUQAIJlk/4194df37/e.gif",
+      "alt": ""
+    }
+  ],
+  "headings": [],
+  "paragraphs": [],
+  "downloaded_images": [
+    {
+      "original": "http://static.zara.net/photos/contents/apps/logo_Zara_2019.png",
+      "local": "images/zara_90303a18.png",
+      "public": "https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/uncategorized/zara/images/zara_90303a18.png"
+    },
+    {
+      "original": "https://static.zara.net/photos/2023/V/0/1/p/7522/040/500/2/7522040500_1_1_1.jpg?ts=1669304624912",
+      "local": "images/zara_d59eba76.jpg",
+      "public": "https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/uncategorized/zara/images/zara_d59eba76.jpg"
+    }
+  ]
+}
