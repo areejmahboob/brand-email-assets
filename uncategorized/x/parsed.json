@@ -1,0 +1,59 @@
+{
+  "links": [
+    {
+      "href": "#",
+      "text": null
+    },
+    {
+      "href": "https://twitter.com/i/redirect?url=https%3A%2F%2Ftwitter.com%2Faccount%2Fconfirm_email_reset%3Freset_type%3De%26amp%3Bpassword_reset_cause%3Dacid%26amp%3Buser_id%3D1499233738466725892%26amp%3Btoken%3D8s5VO1%25215T%2521fL3ZIk3DHF_IHjBz4asCR9K0G%25215aGLcMA%253D-1763174302368%26amp%3Btoken_version%3D0%26amp%3Bconfirm_pending_email%3D0&t=1&cn=YWNpZF9ub3RpZmljYXRpb25fZW1haWw%3D&sig=fa0f4ac5cc306a7ad0feb6112f5f040d25aa3bac&iid=614e326d5e1449b3830aa587a0f24647&uid=1499233738466725892&nid=296+3",
+      "text": "Change your password"
+    },
+    {
+      "href": "https://t.co/redirect?url=https%3A%2F%2Fx.com%2Fsettings%2Fapplications&t=1&cn=YWNpZF9ub3RpZmljYXRpb25fZW1haWw%3D&sig=18d9aa8215d7ef6a43194d5e4f52b6ce7affe20c&iid=614e326d5e1449b3830aa587a0f24647&uid=1499233738466725892&nid=296+4",
+      "text": "Review the apps"
+    },
+    {
+      "href": "https://help.x.com/managing-your-account/connect-or-revoke-access-to-third-party-apps",
+      "text": "Learn more"
+    },
+    {
+      "href": "https://support.x.com/articles/20171250-im-being-asked-to-provide-additional-information-during-sign-up",
+      "text": "Help"
+    },
+    {
+      "href": "https://twitter.com/account/not_my_account/1499233738466725892/C9E38-FCFHC-176317?ut=1&cn=YWNpZF9ub3RpZmljYXRpb25fZW1haWw=",
+      "text": "Not my account"
+    },
+    {
+      "href": "https://t.co/redirect?url=https%3A%2F%2Fsupport.x.com%2Farticles%2F204820-fake-twitter-emails&t=1&cn=YWNpZF9ub3RpZmljYXRpb25fZW1haWw%3D&sig=d714c1eb560925aa63c0c993cfa54dfa6a75c17e&iid=614e326d5e1449b3830aa587a0f24647&uid=1499233738466725892&nid=296+1",
+      "text": "Email security tips"
+    },
+    {
+      "href": "#",
+      "text": "X Corp. 1355 Market Street, Suite 900 San Francisco, CA 94103"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://ea.twimg.com/email/self_serve/media/spacer-1402696023930.png",
+      "alt": null
+    },
+    {
+      "src": "https://ton.x.com/twitter_blue_for_business/verified-programs/x_logo.png",
+      "alt": null
+    },
+    {
+      "src": "https://twitter.com/scribe/ibis?t=1&cn=YWNpZF9ub3RpZmljYXRpb25fZW1haWw%3D&iid=614e326d5e1449b3830aa587a0f24647&uid=1499233738466725892&nid=296+20",
+      "alt": null
+    }
+  ],
+  "headings": [],
+  "paragraphs": [],
+  "downloaded_images": [
+    {
+      "original": "https://ton.x.com/twitter_blue_for_business/verified-programs/x_logo.png",
+      "local": "images/x_e5ce4627.png",
+      "public": "https://raw.githubusercontent.com/areejmahboob/brand-email-assets/main/uncategorized/x/images/x_e5ce4627.png"
+    }
+  ]
+}
